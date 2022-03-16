@@ -12,8 +12,14 @@ loop {
 
 ### How to install
 
-This is a [swc](https://swc.rs) plugin.
+This is a wrapper around the TypeScript compiler API. It aims to serve as a drop-in replacement for the TypeScript compiler.
 
 ```shell
-npm i swc-plugin-ts-preprocessor
+npm i ts-preprocessor
+```
+
+To run this preprocessor, use
+
+```shell
+tsp index.ts
 ```

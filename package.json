@@ -5,7 +5,9 @@
   "files": [
     "bin"
   ],
-  "bin": "bin/main.js",
+  "bin": {
+    "tsp": "bin/main.js"
+  },
   "scripts": {
     "start": "ts-node src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
